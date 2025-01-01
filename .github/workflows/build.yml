@@ -51,7 +51,7 @@ concurrency:
 jobs:
   push-ghcr:
     name: Make
-    runs-on: blacksmith-8vcpu-ubuntu-2204
+    runs-on: blacksmith-4vcpu-ubuntu-2204
     continue-on-error: false
     permissions:
       contents: read
